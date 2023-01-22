@@ -4,6 +4,6 @@ using BtDownloader;
 Console.WriteLine("Hello, World!");
 
 var downloader = new Downloander();
-await downloader.AddTorrent(@"E:\Download\downfile2.torrent", @"E:\Movie");
+await downloader.AddTorrent(@"E:\downfile2.torrent", @"E:\Movie");
 await downloader.Start();
 downloader.Dispose();
